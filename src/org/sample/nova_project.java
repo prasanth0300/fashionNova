@@ -20,9 +20,14 @@ public class nova_project {
 	private void animals_wear() {
 		System.out.println("animals wear collection");
 	}
+
+	private void prasanth_pm() {
+		System.out.println("prasanth is the prime minister of india");
+	}
+
 	public static void main(String[] args) {
-		nova_project np=new nova_project();
-		
+		nova_project np = new nova_project();
+
 		np.animals_wear();
 		np.kids_wear();
 		np.mens_wear();
